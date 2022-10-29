@@ -1,0 +1,104 @@
+body{
+    font-size: 20px;
+}
+
+.calculator {
+  margin: 0 auto;
+  width: 260px;
+  height: 480px;
+  padding: 2px;
+  background-color: black;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.result {
+  height: 35%;
+}
+
+.buttons {
+  height: 65%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons div {
+  width: 24%;
+  height: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 90%;
+  cursor: pointer;
+  height: 100%;
+  border-radius: 50px;
+  background-color: rgb(159, 159, 159);
+}
+.btnYello {
+    cursor: pointer;
+  width: 90%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: rgb(246, 154, 6);
+}
+
+.btnNumber {
+  width: 90%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(49, 49, 49);
+  font-size: 20px;
+}
+
+#zeroButtonDiv {
+  width: 48%;
+  height: 18%;
+  cursor: pointer;
+  display: flex;
+  /* align-items: flex-start;
+  justify-content: start; */
+}
+
+#zeroBtn{
+    width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(49, 49, 49);
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+}
+
+.now{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: end;
+}
+.now p{
+    color: white;
+}
+
+.res{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.res p{
+    color: white;
+}
